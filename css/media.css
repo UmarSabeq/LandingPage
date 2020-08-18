@@ -1,0 +1,155 @@
+@media (max-width: 1022px) {
+
+	.img-rotate{
+		width: 300px;
+		text-align: center;
+		margin:0 auto;
+	}
+
+	.about-section .row h1{
+		font-size: 50px;
+		text-align: center;
+	}
+
+	.about-section .row p{
+		text-align: center;
+	}
+}
+
+
+@media (max-width: 992px){
+	.skills .card{
+		margin:20px 20px;
+	}
+
+
+
+}
+
+@media (max-width: 991px){
+	
+	.owners-card{
+		margin:20px 20px;
+	}
+}
+
+
+
+@media (max-width: 767px){
+	.img-rotate{
+		width: 500px;
+		transform: rotate(0deg);
+		
+	}
+
+	.owners-card{
+		margin:20px 0px;
+	}
+
+}
+ 
+@media (max-width: 575px){
+	.skills .card{
+		margin:20px 80px;
+	}
+
+	.owners-card{
+		margin:20px 80px;
+	}
+
+
+}
+
+@media (max-width: 518px){
+
+	.img-rotate{
+		width: 450px;
+		margin:0 15px;
+	}
+
+}
+
+
+@media (max-width: 492px){
+
+	.img-rotate{
+		width: 400px;
+		margin:0 auto;
+	}
+}
+
+
+@media (max-width: 418px){
+
+	.img-rotate{
+		width: 300px;
+		margin:0 35px;
+	}
+}
+
+@media (max-width: 386px){
+
+	.img-rotate{
+		width: 200px;
+		margin:0 0;
+		text-align: center;
+		margin:0 auto;
+	}
+
+	.about-section .row h1{
+		font-size: 30px;
+		
+	}
+
+	.skills .card{
+		margin:20px 40px;
+	}
+
+	.owners-card{
+		margin:20px 40px;
+	}
+
+}
+
+@media (max-width: 258px){
+
+	.owners-card{
+		margin: 20px 0;
+	}
+
+	.skills .card{
+		margin: 20px 0;
+	}
+
+	.owners-card{
+		margin:20px 0px;
+	}
+
+}
+
+@media (max-width: 214px){
+
+	.owners-card img{
+		width: 100px;
+		height: 100px;
+		margin-top: 20px;
+	}
+
+	.img-rotate{
+		width: 150px;
+	}
+
+}
+
+@media (max-width: 174px){
+
+	.img-rotate{
+		width: 100px;
+	}
+
+	.card{
+		margin:20px 0 !important;
+	}
+
+
+}

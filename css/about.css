@@ -1,0 +1,15 @@
+.about{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 15%, rgba(9,102,121,1) 50%, rgba(0,212,255,1) 74%);
+    height: 100vh;
+}
+
+
+.about .about-img .img-fluid{
+    margin-top:70px;
+    height: 80vh;
+}
+
+.about .about-info{
+    margin: auto 0;
+}

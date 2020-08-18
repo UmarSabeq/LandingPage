@@ -1,0 +1,200 @@
+.header{
+    height: auto;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.sticky {
+    background-color: rgba(29, 26, 26, 0.74);
+    color: #fff;
+}
+
+
+
+.navbar-nav .nav-link{
+	font-size: 18px;
+	margin-left: 20px;
+	color: #fff !important ;
+	font-weight: 500;
+	float: right;
+	text-align: left;
+}
+
+.navbar-nav .nav-link:hover{
+	color: #DDD !important;
+}
+
+.navbar-nav .ar{
+	margin-left: 50px;
+}
+
+.lo{
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.go{
+	font-size:18px;
+	color: #DDD;
+}
+
+.about-section{
+	background-color: #2aa0b4;
+	vertical-align: center;
+	padding: 100px 100px;
+
+}
+.future{
+	margin-bottom: 50px;
+}
+
+.img-rotate{
+	width: 500px;
+	transform: rotate(45deg);
+	margin-top: 20px;
+}
+
+.about-section .row h1{
+	font-size: 80px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.about-section .row p{
+	color: #fff;
+}
+
+
+
+.inner{
+	background-color: #0d0d0d;
+}
+
+.inner .about-inner{
+	margin : 130px 0px;
+}
+
+.inner .about-inner h1{
+	font-size: 50px;
+}
+
+.skills{
+	background-color: #0d0d0d;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.skills .title{
+	margin-bottom: 50px;
+	color: #fff;
+}
+
+.skills img{
+	width: 100px;
+	height: 100px;
+	margin:auto;
+	margin-bottom: 15px;
+}
+
+.skills .card{
+	margin:20px 70px;
+	padding: 30px 0px;
+}
+
+.skills .row h4{
+	font-size: 20px;
+}
+
+.skills .row p{
+	margin:0px 10px;
+}
+
+.skills .card:hover{
+	background-color: #2aa0b4;
+	color: #fff;
+	transition-duration: 800ms;
+}
+
+.co-section{
+	background-color: #0d0d0d;
+}
+
+.co-section .c-title{
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.c-card{
+	background-color: #fff;
+}
+
+
+.course-title{
+	color: #FFF;
+	padding-bottom: 50px;
+}
+
+footer{
+	background-color: #000;
+	color: #fff;
+}
+
+.footer-icons{
+	margin-top: 30px;
+}
+
+.footre-icons .fab{
+	background-color: #f00;
+}
+
+.np{
+	background-color: #000;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin:auto 0;
+}
+
+.np:hover{
+	background-color: #2aa0b4;
+}
+
+
+.c-h{
+	height: 200px;
+}
+
+.carousel-item h4{
+	color: #fff;
+	margin:20px 0;
+}
+
+.owners{
+	background-color: #0d0d0d;
+	padding: 100px 0;
+}
+
+.owners h3{
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.owners-card{
+	background-image: linear-gradient(to bottom, #c299ff, #c299ff 50%, #555555 50%);
+  	background-attachment:fixed;
+  	background-repeat: no-repeat;
+	margin:20px 70px;
+	padding-bottom: 20px;
+	color: #FFF;
+}
+
+.owners-card img{
+	width: 150px; 
+	height: 150px;
+}
