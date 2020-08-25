@@ -1,7 +1,7 @@
-@media (max-width: 1022px) {
+@media (max-width: 1024px) {
 
 	.img-rotate{
-		width: 300px;
+		width: 350px;
 		text-align: center;
 		margin:0 auto;
 	}
@@ -17,139 +17,117 @@
 }
 
 
-@media (max-width: 992px){
-	.skills .card{
-		margin:20px 20px;
-	}
 
 
 
-}
-
-@media (max-width: 991px){
+@media (max-width: 768px){
 	
-	.owners-card{
-		margin:20px 20px;
-	}
-}
-
-
-
-@media (max-width: 767px){
 	.img-rotate{
-		width: 500px;
-		transform: rotate(0deg);
-		
+		padding-top: 30px;
+		transform: rotate(45deg) !important;
+		width: 345px !important;
 	}
-
-	.owners-card{
-		margin:20px 0px;
+	.about-section{
+		padding: 50px 50px;
 	}
-
-}
- 
-@media (max-width: 575px){
-	.skills .card{
-		margin:20px 80px;
-	}
-
-	.owners-card{
-		margin:20px 80px;
-	}
-
-
-}
-
-@media (max-width: 518px){
-
-	.img-rotate{
-		width: 450px;
-		margin:0 15px;
-	}
-
-}
-
-
-@media (max-width: 492px){
-
-	.img-rotate{
-		width: 400px;
-		margin:0 auto;
-	}
-}
-
-
-@media (max-width: 418px){
-
-	.img-rotate{
-		width: 300px;
-		margin:0 35px;
-	}
-}
-
-@media (max-width: 386px){
-
-	.img-rotate{
-		width: 200px;
-		margin:0 0;
-		text-align: center;
-		margin:0 auto;
-	}
-
 	.about-section .row h1{
-		font-size: 30px;
+		font-size: 40px !important;
+	}
+	.about-section .row p{
+		font-size: 15px;
+	}
+	.owners-card{
+		margin: auto 10px !important;
+	}
+	.skills .card{
+		margin: auto 20px 20px !important;
+	}
+}
+
+
+
+@media (max-width: 425px){
+
+    .container {
+		padding:0;
+		margin:0;
+	  }
+	  html,body {
+		padding:0;
+		margin: 0;
+		overflow-x: hidden;
+		width: 100%;
+		height: 100%;
+	  }
+  
+	  .navbar-fixed-top, .navbar-fixed-bottom, .navbar-static-top {
+		margin-left: 0;
+		margin-right: 0;
+		margin-bottom:0;
+	}
+
+	
+	.img-rotate{
+		width: 350px !important;
+		transform: rotate(0deg) !important;
+			
+	}
+
+	.about-section{
+		padding: 30px 30px;
+	}
+	.inner .about-inner{
+		margin: 20px 0;
+	}
+	.about-section .row h1{
+		font-size: 30px !important;
+	}
+	.about-section .row p{
+		font-size: 15px;
+	}
+	.course-title{
+		padding-top: 50px;
+	}
+	.skills .card{
+		margin: auto 100px 40px !important;
+	}
+	.skills{
+		padding-bottom: 0;
+	}
+	.owners h3{
+		font-size: 23px;
+	}
+	.owners-card{
+		margin:20px 80px !important;
 		
 	}
-
-	.skills .card{
-		margin:20px 40px;
-	}
-
-	.owners-card{
-		margin:20px 40px;
-	}
-
 }
 
-@media (max-width: 258px){
 
-	.owners-card{
-		margin: 20px 0;
-	}
 
-	.skills .card{
-		margin: 20px 0;
-	}
-
-	.owners-card{
-		margin:20px 0px;
-	}
-
-}
-
-@media (max-width: 214px){
-
-	.owners-card img{
-		width: 100px;
-		height: 100px;
-		margin-top: 20px;
-	}
+@media (max-width: 375px){
 
 	.img-rotate{
-		width: 150px;
+		width: 300px !important;			
+	}
+
+	.owners h3{
+		font-size: 20px;
 	}
 
 }
 
-@media (max-width: 174px){
+@media (max-width: 320px){
 
 	.img-rotate{
-		width: 100px;
+		width: 270px !important;			
+	}
+	.owners h3{
+		font-size: 17px;
 	}
 
-	.card{
-		margin:20px 0 !important;
+	.skills .card {
+		margin: auto 60px 40px !important;
 	}
-
 
 }
